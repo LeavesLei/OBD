@@ -1,0 +1,31 @@
+training:
+  n_iters: 50000
+  num_exp: 1
+  eval_every: 200
+
+evaluation:
+  eval_episodes: 10
+  batch_size: 256
+  num_workers: 8
+
+dataset:
+  name: ''
+  data_path: 'data'
+
+bptt:
+  inner_steps: 20
+  test_batch_num: 100
+  
+synset_optim:
+  optimizer: "SGD"
+  lr: 0.1
+  beta1: 0.9
+  weight_decay: 0
+  momentum: 0.5
+
+bptt_optim:
+  optimizer: "SGD"
+  lr: 0.01
+  momentum: 0.9
+  weight_decay: 0
+  temperature: 0
