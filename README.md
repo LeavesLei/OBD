@@ -1,6 +1,6 @@
-# Offline Behavior Distillation
+# OBD
 
-This is the official repository for the NeurIPS 2024 paper ["Offline Behavior Distillation"](https://openreview.net/forum?id=89fSR2gpxp) by Shiye Lei, Sen Zhang, and Dacheng Tao.
+Official repository for the NeurIPS 2024 paper "[Offline Behavior Distillation](https://arxiv.org/pdf/2410.22728)" by Shiye Lei, Sen Zhang, and Dacheng Tao.
 
 
 
@@ -16,9 +16,9 @@ This is the official repository for the NeurIPS 2024 paper ["Offline Behavior Di
 
 ## Quick Start
 
-- Please refer to [command_parer.py](./configs/command_parer.py) for default hyper-parameters
-- near-expert policy $\pi^\ast$ checkpoints are provided in [offline_policy_checkpoints](./offline_policy_checkpoints) and are obtained by using Cal-QL implemented by [CORL](https://github.com/tinkoff-ai/CORL).
-- Av-PBC distilled datasets are available [here](https://drive.google.com/file/d/19yCQkCRy82YOqy8xZnOMqTDkgOhkAHWc/view?usp=sharing)
+- Please refer to [command_parser.py](./configs/command_parser.py) for default hyper-parameters.
+- near-expert policy $\pi^\ast$ checkpoints are provided in [offline_policy_checkpoints](./offline_policy_checkpoints) and obtained by using Cal-QL implemented in [CORL](https://github.com/tinkoff-ai/CORL).
+- Av-PBC distilled datasets are available [here](https://drive.google.com/file/d/19yCQkCRy82YOqy8xZnOMqTDkgOhkAHWc/view?usp=sharing).
 
 #### Syntheisze Behavioral Datasets
 
